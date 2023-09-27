@@ -1,38 +1,68 @@
-.clear{
-    clear: both;
-  }
-  .header{
-    background-color: blueviolet;
-    height: 80px;
-  }
-  .menu{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: none;
-  }
-  .menu a{
-    display: block;
-    width: 100px;
-    height: 50px;
-    line-height: 30px;
-    background-color: brown;
-    text-decoration: none;
-    color: white;
-    border-bottom: 1px solid white;
-    border-right: 1px solid white;
-    text-align: center;
-    height: 40px;
-  }
-  .menu a:hover{
-    background-color: grey;
-  }
-  .parent_style{
-    display: block;
-  }
-  .parent_style > li{
-    float: left;
-  }
-  .hover:hover > .menu{
-    display: block;
-  }
+.container-fluid{
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  
+  
+}
+.container-justify{
+  margin-left: 100px;
+ 
+  
+}
+.navbar-style{
+  margin: 5px;
+  margin-right: 100px;
+}
+.website-template{
+  margin-top: 100px;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  text-align: center;
+ 
+}
+.website-template h1{
+  color: rgb(46, 46, 100);
+}
+.website-template p{
+  color: grey;
+}
+.column-restore{
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10px;
+  border: none;
+  
+ 
+}
+.card{
+  border: 0cm;
+  margin: 10px;
+  background-color: rgb(43, 83, 83);
+ float: right;
+}
+.card-body{
+  background-color: white;
+  border: none;
+
+
+}
+.card-body i{
+  width: 40px;
+  margin-bottom: 5px;
+  text-align: center;
+  
+
+}
+.card-body h5{
+  color: blue;
+  font-size: 25px;
+  
+}
+
+ 
